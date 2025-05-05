@@ -6,3 +6,5 @@ services:
     repo: https://github.com/correcontactos/nodenpmrender.git
     buildCommand: 'npm install'
     startCommand: 'npm start' 
+     envVars:
+      - key: PORT
