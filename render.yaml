@@ -1,1 +1,8 @@
-
+services:
+  - type: web # A Python web service named django-app running on a free instance
+    plan: free
+    name: nodenpmrender
+    runtime: node
+    repo: https://github.com/correcontactos/nodenpmrender.git
+    buildCommand: 'npm install'
+    startCommand: 'npm start' 
