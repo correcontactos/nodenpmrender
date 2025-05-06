@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node --env-file .env index",
     "dev": "nodemon -L --env-file .env index",
-    "start": "node --env-file .env index"
+    "start": "node index"
   },
   "author": "dtorres1000",
   "license": "ISC",

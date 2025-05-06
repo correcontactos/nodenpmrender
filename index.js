@@ -1,7 +1,10 @@
 const http = require('http')
 const port = process.env.PORT
 
-const server = http.createServer(console.log('Server started'))
+const server = http.createServer((req, res) => {
+    console.log('Server started')
+    res.end('Hello')
+})
 
 server.listen(port, () => {
     console.log(`Server listening port ${port}`)
