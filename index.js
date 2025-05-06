@@ -3,7 +3,7 @@ const port = process.env.PORT
 
 const server = http.createServer((req, res) => {
     console.log('Server started')
-    res.end('Hello')
+    res.end('Hello World')
 })
 
 server.listen(port, () => {
