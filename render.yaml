@@ -4,7 +4,5 @@ services:
     name: nodenpmrender
     runtime: node
     repo: https://github.com/correcontactos/nodenpmrender.git
-    buildCommand: 'npm install'
-    startCommand: 'npm start' 
-     env:
-      - port: 3002
+    buildCommand: npm install
+    startCommand: npm start
